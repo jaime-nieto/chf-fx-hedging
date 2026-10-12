@@ -1,0 +1,132 @@
+{
+  "EURCHF": {
+    "source": "ecb",
+    "code": "EXR/D.CHF.EUR.SP00.A",
+    "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.CHF.EUR.SP00.A?format=csvdata",
+    "description": "Francs per euro, ECB reference rate (daily)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1999-01-04",
+    "last_date": "2026-10-09",
+    "n_obs": 7111
+  },
+  "EURUSD": {
+    "source": "ecb",
+    "code": "EXR/D.USD.EUR.SP00.A",
+    "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=csvdata",
+    "description": "Dollars per euro, ECB reference rate (daily)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1999-01-04",
+    "last_date": "2026-10-09",
+    "n_obs": 7111
+  },
+  "USDCHF_FED": {
+    "source": "fred",
+    "code": "DEXSZUS",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXSZUS",
+    "description": "Francs per dollar, Fed H.10 noon New York (daily); robustness only",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1971-01-04",
+    "last_date": "2026-10-02",
+    "n_obs": 13981
+  },
+  "SPX_TR": {
+    "source": "yahoo",
+    "code": "^SP500TR",
+    "url": "https://finance.yahoo.com/quote/^SP500TR",
+    "description": "S&P 500 Total Return index, USD (daily close)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1999-01-04",
+    "last_date": "2026-10-09",
+    "n_obs": 6985
+  },
+  "SPX": {
+    "source": "yahoo",
+    "code": "^GSPC",
+    "url": "https://finance.yahoo.com/quote/^GSPC",
+    "description": "S&P 500 price index, USD; data check only (dividend gap)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1999-01-04",
+    "last_date": "2026-10-09",
+    "n_obs": 6985
+  },
+  "DAX": {
+    "source": "yahoo",
+    "code": "^GDAXI",
+    "url": "https://finance.yahoo.com/quote/^GDAXI",
+    "description": "DAX, EUR; a performance index (dividends reinvested) by construction",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1999-01-04",
+    "last_date": "2026-10-09",
+    "n_obs": 7052
+  },
+  "UST10Y": {
+    "source": "fred",
+    "code": "DGS10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+    "description": "US Treasury 10-year constant-maturity yield, % (daily)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1962-01-02",
+    "last_date": "2026-10-07",
+    "n_obs": 16177
+  },
+  "BUND10Y": {
+    "source": "bbk",
+    "code": "BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A?format=csv&lang=en",
+    "description": "German Federal securities, 10-year yield from the Bundesbank term structure (Svensson), % (daily)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1997-08-07",
+    "last_date": "2026-10-09",
+    "n_obs": 7406
+  },
+  "RATE_CHF": {
+    "source": "fred",
+    "code": "IR3TIB01CHM156N",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IR3TIB01CHM156N",
+    "description": "Switzerland 3-month interbank rate, OECD MEI (monthly average)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1999-07-01",
+    "last_date": "2026-08-01",
+    "n_obs": 326
+  },
+  "RATE_USD": {
+    "source": "fred",
+    "code": "IR3TIB01USM156N",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IR3TIB01USM156N",
+    "description": "United States 3-month interbank rate, OECD MEI (monthly average)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1964-06-01",
+    "last_date": "2026-08-01",
+    "n_obs": 746
+  },
+  "RATE_EUR": {
+    "source": "ecb",
+    "code": "FM/M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA",
+    "url": "https://data-api.ecb.europa.eu/service/data/FM/M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA?format=csvdata",
+    "description": "Euribor 3-month, ECB (monthly average)",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "1994-01-01",
+    "last_date": "2026-09-01",
+    "n_obs": 393
+  },
+  "ETF_UST": {
+    "source": "yahoo_adj",
+    "code": "IEF",
+    "url": "https://finance.yahoo.com/quote/IEF",
+    "description": "iShares 7-10 Year Treasury Bond ETF, adjusted close; data check only",
+    "downloaded_at_utc": "2026-10-09 15:52",
+    "first_date": "2002-07-30",
+    "last_date": "2026-10-09",
+    "n_obs": 6089
+  },
+  "ETF_BUND": {
+    "source": "yahoo_adj",
+    "code": "EXHD.DE",
+    "url": "https://finance.yahoo.com/quote/EXHD.DE",
+    "description": "iShares eb.rexx Government Germany 5.5-10.5yr ETF, adjusted close; data check only",
+    "downloaded_at_utc": "2026-10-09 15:58",
+    "first_date": "2008-01-02",
+    "last_date": "2026-10-09",
+    "n_obs": 4766
+  }
+}

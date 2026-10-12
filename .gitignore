@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Raw and processed data are NOT committed by default: they belong to their
+# providers (Yahoo Finance, FRED/OECD, ECB, Deutsche Bundesbank) and
+# redistribution may be restricted. `python run_all.py` re-downloads whatever
+# is missing. data/raw/manifest.json IS committed: it documents source and
+# download date.
+data/raw/*.csv
+data/processed/
+
+# Personal notes, not part of the project.
+notes/
